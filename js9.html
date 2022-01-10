@@ -1,0 +1,22 @@
+<html>
+<head>
+  <script>
+    function string() {
+    
+       var x =document.getElementById("input").value;
+      var y=x.slice(0,2);
+       var val=(y==="Py"||y==="py"||y==="PY")? x:"Py"+x;
+       var k =document.getElementById("demo");
+       k.innerHTML="New String is:"+" "+val;
+    }
+</script>
+</head>
+<body>
+<center>
+<h1>Py finder</h1>
+  <label for="input">Enter the word! </label><input type="text" id="input">
+  <button onclick="string()">click me!</button>
+  <p id="demo"></p>
+</center> 
+</body>
+</html>

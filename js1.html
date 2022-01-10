@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>
+</title>
+</head>
+<body bgcolor="lightblue">
+<center>
+<form>
+First Name:<input type="text" id="MyText">
+<button type="button" onClick="myFunction()" value="submit">
+Submit
+</button>
+</form>
+<p id="demo"></p>
+<script>
+function myFunction()
+{
+var x=document.getElementById("MyText").value;
+document.getElementById("demo").innerHTML=x;
+}
+</script>
+</center>
+</body>
+</html>
